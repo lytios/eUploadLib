@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'eUploadLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of eUploadLib.'
+  s.summary          = 'E分期车贷评估图片上传sdk'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,28 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lyt/eUploadLib'
+  s.homepage         = 'https://github.com/lytios/eUploadLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lyt' => '24290265@qq.com' }
-  s.source           = { :git => 'https://github.com/lyt/eUploadLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lytios/eUploadLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'eUploadLib/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'eUploadLib' => ['eUploadLib/Assets/*.png']
-  # }
+  s.source_files = 'eUploadLib/Classes/EsignUploadSDK.framework'
+  s.ios.vendored_frameworks = 'eUploadLib/Classes/EsignUploadSDK.framework'
+  s.resource_bundles = {
+    'eUploadLib' => ['eUploadLib/Assets/EsignUploadBundle.bundle']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking'
+  s.dependency 'SDWebImage', '~> 3.8.2'
+  s.dependency 'Masonry'
+  s.dependency 'YTKNetwork','~> 2.0.4'
+  s.dependency 'YYModel','~> 1.0.4'
+  s.dependency 'CommonElement'
+  s.dependency 'MBProgressHUD'
 end

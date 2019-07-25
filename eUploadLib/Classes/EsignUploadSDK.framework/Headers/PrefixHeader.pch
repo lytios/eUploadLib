@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  EsignUploadSDK
+//
+//  Created by liuyutian on 2019/7/15.
+//  Copyright © 2019年 liuyutian. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "esignUploadConfig.h"
+#import "YYModel.h"
+#import "CommonElement.h"
+#import "Masonry.h"
+#import <YTKNetwork/YTKNetwork.h>
+#import "esignUploadProgress.h"
+#import "UIImageView+WebCache.h"
+
+#endif /* PrefixHeader_pch */
