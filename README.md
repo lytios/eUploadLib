@@ -31,10 +31,10 @@ lyt, 24290265@qq.com
 eUploadLib is available under the MIT license. See the LICENSE file for more info.
 
 ## dependency 
-s.dependency 'AFNetworking'
-s.dependency 'SDWebImage', '~> 3.8.2'
-s.dependency 'Masonry'
-s.dependency 'YTKNetwork','~> 2.0.4'
-s.dependency 'YYModel','~> 1.0.4'
-s.dependency 'CommonElement'
-s.dependency 'MBProgressHUD'
+'AFNetworking'
+'SDWebImage', '~> 3.8.2'
+'Masonry'
+'YTKNetwork','~> 2.0.4'
+'YYModel','~> 1.0.4'
+'CommonElement'
+'MBProgressHUD'
