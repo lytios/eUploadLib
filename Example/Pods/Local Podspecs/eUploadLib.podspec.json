@@ -21,11 +21,7 @@
   "ios": {
     "vendored_frameworks": "eUploadLib/Classes/EsignUploadSDK.framework"
   },
-  "resource_bundles": {
-    "eUploadLib": [
-      "eUploadLib/Assets/EsignUploadBundle.bundle"
-    ]
-  },
+  "resources": "eUploadLib/Assets/EsignUploadBundle.bundle",
   "frameworks": [
     "UIKit",
     "MapKit"

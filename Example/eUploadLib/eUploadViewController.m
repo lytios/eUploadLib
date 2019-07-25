@@ -7,8 +7,14 @@
 //
 
 #import "eUploadViewController.h"
-
+#import <EsignUploadSDK/esignUploadHomeVC.h>
 @interface eUploadViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *orderNotextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *requestUrltextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *assurerNotextFileld;
 
 @end
 
@@ -17,13 +23,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"e分期上传材料测试DEMO";
+    self.requestUrltextField.text = @"http://192.168.0.193:8888";
+    self.orderNotextField.text = @"008";
+    self.assurerNotextFileld.text = @"D36024344";
+
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+}
+
+
+- (IBAction)submitButtonAction:(UIButton *)sender {
+    
+    NSString *path =  [[NSBundle mainBundle] pathForResource:@"EsignUploadBundle" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:path];
+    UINavigationController *nav =[esignUploadHomeVC SignUploadHomeNavigationControllerWithBundle:bundle baseUrl:self.requestUrltextField.text orderNo:self.orderNotextField.text assurerNo:self.assurerNotextFileld.text];
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 @end

@@ -32,9 +32,7 @@ TODO: Add long description of the pod here.
 
   #s.source_files = 'eUploadLib/Classes/EsignUploadSDK.framework'
   s.ios.vendored_frameworks = 'eUploadLib/Classes/EsignUploadSDK.framework'
-  s.resource_bundles = {
-    'eUploadLib' => ['eUploadLib/Assets/EsignUploadBundle.bundle']
-  }
+  s.resource ='eUploadLib/Assets/EsignUploadBundle.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'MapKit'
