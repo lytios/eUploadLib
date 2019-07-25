@@ -66,7 +66,7 @@
 		38EB7F73D3AC7294B36E52CFF53B1B27 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E78F9A538E79B6FDC6F3159FACEAE127 /* MASCompositeConstraint.m */; };
 		39264490DA41E28B12B61D589D80C272 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 752AEEB031BD4AA3232A167AAC26CC3F /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AF1AD02F077D0A8D3DC3C2B2A40B0B0 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = E26EED6E85E83ED54BAE3B819D479765 /* SDWebImageCompat.m */; };
-		3B0A61D91258A266A4440D43F2F0F6A9 /* EsignUploadBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 212C72FE6C53281F0B05E1B964507BCE /* EsignUploadBundle.bundle */; };
+		3B0A61D91258A266A4440D43F2F0F6A9 /* EsignUploadBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3BA6AE7D4DDBF13E148206F011863923 /* EsignUploadBundle.bundle */; };
 		3B2564EAB4E554ED0D9B1AAA5ADE0C53 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03294DF4EFB54792AAC8738FB12DD9D3 /* View+MASAdditions.m */; };
 		3B4E8293A22A8F2DCDBB016E74FDBB4E /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F70B9A981F6EF9B1173E88C924EC86 /* NSData+ImageContentType.m */; };
 		3CFBACA72796007D933607340A6FBA1F /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D9C7CA37ED398B4717BB4652C62E9A /* SDWebImagePrefetcher.m */; };
@@ -388,10 +388,10 @@
 		1EF449D662DCF921E222D9DD0632113D /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		1FF89BEBC86F3C202F75A53A4396C5C2 /* Pods-eUploadLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eUploadLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		205B409CEDF62212A10230EC364B3229 /* NSNumber+BinAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+BinAdd.m"; path = "CommonElement/Classs/Category/Foundation/NSNumber/NSNumber+BinAdd.m"; sourceTree = "<group>"; };
-		212C72FE6C53281F0B05E1B964507BCE /* EsignUploadBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EsignUploadBundle.bundle; path = eUploadLib/Assets/EsignUploadBundle.bundle; sourceTree = "<group>"; };
 		228578BA7B318B5559E6AB235EE69584 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		23150D2AE616FEE571A951020338E92E /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		23300C60DF7D103C93C5772B21C7D038 /* NSString+BinAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+BinAdd.m"; path = "CommonElement/Classs/Category/Foundation/NSString/NSString+BinAdd.m"; sourceTree = "<group>"; };
+		233B06AFB15D7710A6BBCC393E833878 /* ResourceBundle-eUploadLib-eUploadLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-eUploadLib-eUploadLib-Info.plist"; sourceTree = "<group>"; };
 		237E8108917BBA4B6A3812C9FB109660 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		2393A7AC2D7FAA3D858070116279348F /* YTKNetworkAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKNetworkAgent.m; path = YTKNetwork/YTKNetworkAgent.m; sourceTree = "<group>"; };
 		260EAFA4036C4D635350D2C27C6C60CC /* NSMutableArray+BinAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+BinAdd.m"; path = "CommonElement/Classs/Category/Foundation/NSMutableArray/NSMutableArray+BinAdd.m"; sourceTree = "<group>"; };
@@ -412,7 +412,6 @@
 		2E1ED3DFF5FE370F7A803E354E4E366C /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		30764A9FA0DDB4B3DAF984BE6964984D /* CommonElement-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonElement-umbrella.h"; sourceTree = "<group>"; };
 		30BF8CF65940D270B0D5EB5721690E13 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
-		317039BACAF13F871711D191D11D4AC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		317F900782BA0D2EF34C14385DF97E68 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		322696BBA1BEBF343F2194312C32D183 /* Pods-eUploadLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eUploadLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3309A95B601428C6B9B5A0C1E6EFA538 /* YTKBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKBaseRequest.m; path = YTKNetwork/YTKBaseRequest.m; sourceTree = "<group>"; };
@@ -422,8 +421,10 @@
 		35112B4B84FF3E6F7871613D2EFCA029 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		36F5F901CBAE2B6FB372CCA6C80FC918 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		3723CD89BACD282B2CAD4C43D933C064 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		3764CA58834BDEF066F6978227EE9426 /* EsignUploadSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EsignUploadSDK.framework; path = eUploadLib/Classes/EsignUploadSDK.framework; sourceTree = "<group>"; };
 		3A4F82F606CB84523AFF78CAB56771DD /* WKWebView+BinAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+BinAdd.h"; path = "CommonElement/Classs/Category/UIKit/Webview/WKWebView+BinAdd.h"; sourceTree = "<group>"; };
 		3B9500AA203DD0096E4656808BE11E09 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		3BA6AE7D4DDBF13E148206F011863923 /* EsignUploadBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EsignUploadBundle.bundle; path = eUploadLib/Assets/EsignUploadBundle.bundle; sourceTree = "<group>"; };
 		3C5E7395CD097BBD76A63DF73F490512 /* UITextField+BinAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+BinAdd.h"; path = "CommonElement/Classs/Category/UIKit/UITextField/UITextField+BinAdd.h"; sourceTree = "<group>"; };
 		3D9E9D7EBD16984E2CF51D71C7FAFAF0 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
 		3DDA8D661676258626FCE104B92546F6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -446,6 +447,7 @@
 		58C2D831CB40F65184E5CDFF418F6283 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		58E17B6450CAE0FD8225C29BE91864D0 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
 		5922317575408C4348C761FFF6B08948 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		5B4427D2CA298DAE00ADCF584EB58B13 /* eUploadLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = eUploadLib.xcconfig; sourceTree = "<group>"; };
 		5B8AA6AFFE67A506AC1624614650F7D5 /* CommonUtils+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CommonUtils+Custom.h"; path = "CommonElement/Classs/CommonUtils/CommonUtils+Custom.h"; sourceTree = "<group>"; };
 		5B8E844CDBAB0ECC92D7847E84E2128E /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
 		5C5D2A6CDD7B46606F1158DC8BD3E3D8 /* NSDictionary+BinAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BinAdd.m"; path = "CommonElement/Classs/Category/Foundation/NSDictionary/NSDictionary+BinAdd.m"; sourceTree = "<group>"; };
@@ -496,7 +498,6 @@
 		942E56B9438B88F4B2ACCCDD032219B7 /* CommonElement-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CommonElement-Info.plist"; sourceTree = "<group>"; };
 		95764978AD5877FD9E549C6002C7DDA1 /* NSObject+BinAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BinAdd.h"; path = "CommonElement/Classs/Category/Foundation/NSObject/NSObject+BinAdd.h"; sourceTree = "<group>"; };
 		959855510AE6182AD98858DD09BF6314 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
-		95DBDFDFA1E6494F27F5C04BD66990F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		96482B2FAEECF4FB8F528F5C425109C1 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		967755478E06DFFE52B857BE712E7DD1 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		9695AC2DAC2C387E542655BD1AF42DAA /* NSDecimalNumber+BinAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+BinAdd.m"; path = "CommonElement/Classs/Category/Foundation/NSNumber/NSDecimalNumber+BinAdd.m"; sourceTree = "<group>"; };
@@ -520,7 +521,6 @@
 		A41B4AFC82349C0138A89A9CB9A4EBD3 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		A636E499275405677BAC8A5A46EF7CC3 /* Pods-eUploadLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eUploadLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A65595BC07B112EF1A24EE0F223AD5BD /* Pods-eUploadLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-eUploadLib_Example.modulemap"; sourceTree = "<group>"; };
-		A68495955A6E4CFD6D58447BC3F72D8C /* eUploadLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = eUploadLib.xcconfig; sourceTree = "<group>"; };
 		A68CF9F2346516A6D322FBBE36933350 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		A6C6C23868F9247B3F08AED9B4495DEC /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		A780B95D300771F66CA316958959A750 /* NSNumber+BinAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+BinAdd.h"; path = "CommonElement/Classs/Category/Foundation/NSNumber/NSNumber+BinAdd.h"; sourceTree = "<group>"; };
@@ -545,6 +545,7 @@
 		C1F9D73F5934CA17F44BA6222E4D92F8 /* Pods-eUploadLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eUploadLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C25EEDB9E55A6EAD7FE10497DC832324 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		C2D767C699FC3CD8E1341083134EA6C2 /* UIColor+BinAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BinAdd.m"; path = "CommonElement/Classs/Category/UIKit/UIColor/UIColor+BinAdd.m"; sourceTree = "<group>"; };
+		C3058C2C9FA4FC9A70AC65FA2B802B1A /* eUploadLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = eUploadLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C32C4B3DDF2558A4090E4B114E7B0743 /* CommonElement-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonElement-prefix.pch"; sourceTree = "<group>"; };
 		C4FADBBBDFEA8BB392F88FFDAE00794C /* NSData+BinAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+BinAdd.m"; path = "CommonElement/Classs/Category/Foundation/NSData/NSData+BinAdd.m"; sourceTree = "<group>"; };
 		C5B048FCEDD1D5FA86967F82110091EE /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
@@ -563,6 +564,7 @@
 		D23D236DF1F678A436EE070BBAD4530A /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
 		D26EC985425440A7DB8425F99717F34A /* YTKRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKRequest.m; path = YTKNetwork/YTKRequest.m; sourceTree = "<group>"; };
 		D2ADEE06A4509C86D1B8545442CEED46 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		D2E3ACEA5C28C65378A578EA61BC9E69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D4F409E6EBD1CEEB2AF49EFDB8B23BD8 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		D57910C88417EAD65C27E781D2A91AF0 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		D68E7FE22713CD57DD83A1E1DC436E07 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
@@ -574,7 +576,6 @@
 		D89498A3BAC458FE0669ACCEDE31F0E5 /* UITextField+FFKeyBoard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+FFKeyBoard.m"; path = "CommonElement/Classs/Category/UIKit/UITextField/UITextField+FFKeyBoard.m"; sourceTree = "<group>"; };
 		D8EACA11FBC8E024D272DB810523C698 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA989A5FAA63B0BE15325469A9D65323 /* YTKNetworkAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetworkAgent.h; path = YTKNetwork/YTKNetworkAgent.h; sourceTree = "<group>"; };
-		DC5E62707265B935CE2D55911C19A9EE /* eUploadLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = eUploadLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DC75E64E4240E8DC13081EA6E5774F3A /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		DCF387A5DA96A1BADBB2B9CDA2EE9F25 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		DD0F1A6D0E7E660AE25579CAFE4FECED /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
@@ -605,10 +606,10 @@
 		F784B93192B3ECDB8B48C85643C0F5CB /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		F854A0E5692D1D139CE034BC55E2B902 /* NSObject+BinAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BinAdd.m"; path = "CommonElement/Classs/Category/Foundation/NSObject/NSObject+BinAdd.m"; sourceTree = "<group>"; };
 		F8A824FFC1857AB68DE0033B25373971 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		F8EE1B7F1B9407CD8496ADCD1A89D24D /* ResourceBundle-eUploadLib-eUploadLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-eUploadLib-eUploadLib-Info.plist"; sourceTree = "<group>"; };
 		F8F0D936CE628EDC4073C52A9D745EB2 /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
 		F8FDA144015FD12FA9AD7071B2A5301A /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		F9D4A3A9E452392C5C96C2A0A2664D83 /* NSDecimalNumber+BinAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+BinAdd.h"; path = "CommonElement/Classs/Category/Foundation/NSNumber/NSDecimalNumber+BinAdd.h"; sourceTree = "<group>"; };
+		FA7324E34B2ADD84F0DD8DBCA6CBCA43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FC79E42076236962110D0F15F9E24D34 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		FDCD19C139D6924DD07030C9BE628B63 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		FF4B70AE68B20739D05E6E897B543DBF /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
@@ -768,16 +769,6 @@
 			path = CommonElement;
 			sourceTree = "<group>";
 		};
-		00A2E53B846E80F13C8C7FBCB79B78F7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DC5E62707265B935CE2D55911C19A9EE /* eUploadLib.podspec */,
-				95DBDFDFA1E6494F27F5C04BD66990F0 /* LICENSE */,
-				317039BACAF13F871711D191D11D4AC8 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		03A66CF3205CE35C96CB855669A11F2A /* YTKNetwork */ = {
 			isa = PBXGroup;
 			children = (
@@ -806,15 +797,12 @@
 			path = YTKNetwork;
 			sourceTree = "<group>";
 		};
-		0CC50E82770275F3F78E5049ECAA8D42 /* eUploadLib */ = {
+		0D93FA8E258B670F58507660ACB63480 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				00A2E53B846E80F13C8C7FBCB79B78F7 /* Pod */,
-				462585EBEC0F2E8408EC65D341ADD80C /* Resources */,
-				CBEBBD393605A41EDC6A57F7B0C669CC /* Support Files */,
+				70DBC7D80A7AB96C13430E6AB6430242 /* eUploadLib */,
 			);
-			name = eUploadLib;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		1285C2534CF1EA219AA96CB5784DD05D /* Support Files */ = {
@@ -885,20 +873,14 @@
 			name = Security;
 			sourceTree = "<group>";
 		};
-		2ECC84A09E9A17F01C218C16CB2E664C /* Development Pods */ = {
+		3EDBD42F956348E44FC2F3BB388F487B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0CC50E82770275F3F78E5049ECAA8D42 /* eUploadLib */,
+				C3058C2C9FA4FC9A70AC65FA2B802B1A /* eUploadLib.podspec */,
+				D2E3ACEA5C28C65378A578EA61BC9E69 /* LICENSE */,
+				FA7324E34B2ADD84F0DD8DBCA6CBCA43 /* README.md */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		462585EBEC0F2E8408EC65D341ADD80C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				212C72FE6C53281F0B05E1B964507BCE /* EsignUploadBundle.bundle */,
-			);
-			name = Resources;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		538C689DF43E1412FEEE5161C856C243 /* Support Files */ = {
@@ -923,6 +905,28 @@
 			);
 			name = SDWebImage;
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		67A073A75E44D7C0C5F33283DCA1215C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4427D2CA298DAE00ADCF584EB58B13 /* eUploadLib.xcconfig */,
+				233B06AFB15D7710A6BBCC393E833878 /* ResourceBundle-eUploadLib-eUploadLib-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/eUploadLib";
+			sourceTree = "<group>";
+		};
+		70DBC7D80A7AB96C13430E6AB6430242 /* eUploadLib */ = {
+			isa = PBXGroup;
+			children = (
+				ADB727E793D6811F92D1B4871F43EF86 /* Frameworks */,
+				3EDBD42F956348E44FC2F3BB388F487B /* Pod */,
+				A2E9AF6F7A6D437B608E30E46BA8B231 /* Resources */,
+				67A073A75E44D7C0C5F33283DCA1215C /* Support Files */,
+			);
+			name = eUploadLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		76EAED08999786D9FBA456705CCAA92D /* Support Files */ = {
@@ -1066,6 +1070,14 @@
 			path = "../Target Support Files/YYModel";
 			sourceTree = "<group>";
 		};
+		A2E9AF6F7A6D437B608E30E46BA8B231 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BA6AE7D4DDBF13E148206F011863923 /* EsignUploadBundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		AD35E3B3FE94DD8BAB34B1091E5F2FBA /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
@@ -1075,6 +1087,14 @@
 				0F6D607A4911F624A8359E8890D16FA8 /* AFURLResponseSerialization.m */,
 			);
 			name = Serialization;
+			sourceTree = "<group>";
+		};
+		ADB727E793D6811F92D1B4871F43EF86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3764CA58834BDEF066F6978227EE9426 /* EsignUploadSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B47443798182B34951EACB65479275BE /* Support Files */ = {
@@ -1131,21 +1151,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CBEBBD393605A41EDC6A57F7B0C669CC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A68495955A6E4CFD6D58447BC3F72D8C /* eUploadLib.xcconfig */,
-				F8EE1B7F1B9407CD8496ADCD1A89D24D /* ResourceBundle-eUploadLib-eUploadLib-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/eUploadLib";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2ECC84A09E9A17F01C218C16CB2E664C /* Development Pods */,
+				0D93FA8E258B670F58507660ACB63480 /* Development Pods */,
 				EC3FAECE9392B23A30F9BF408BE94903 /* Frameworks */,
 				F1EA4E3AB25D87CBAB3B1FA9B0518D7D /* Pods */,
 				CB993AFC7D05968F3FB06BC7409F94AD /* Products */,
@@ -2259,7 +2269,7 @@
 		};
 		65CD1D89EB8B386B60093B44BDF57EBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A68495955A6E4CFD6D58447BC3F72D8C /* eUploadLib.xcconfig */;
+			baseConfigurationReference = 5B4427D2CA298DAE00ADCF584EB58B13 /* eUploadLib.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2336,7 +2346,7 @@
 		};
 		8851ED6F990D9774AD6649EADCC40BCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A68495955A6E4CFD6D58447BC3F72D8C /* eUploadLib.xcconfig */;
+			baseConfigurationReference = 5B4427D2CA298DAE00ADCF584EB58B13 /* eUploadLib.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2412,7 +2422,7 @@
 		};
 		A319E74358730BBC30E4237D0CE88F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A68495955A6E4CFD6D58447BC3F72D8C /* eUploadLib.xcconfig */;
+			baseConfigurationReference = 5B4427D2CA298DAE00ADCF584EB58B13 /* eUploadLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/eUploadLib";
@@ -2620,7 +2630,7 @@
 		};
 		EB230D9370548AF2A627111D54127329 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A68495955A6E4CFD6D58447BC3F72D8C /* eUploadLib.xcconfig */;
+			baseConfigurationReference = 5B4427D2CA298DAE00ADCF584EB58B13 /* eUploadLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/eUploadLib";

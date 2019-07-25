@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'eUploadLib/Classes/EsignUploadSDK.framework'
+  #s.source_files = 'eUploadLib/Classes/EsignUploadSDK.framework'
   s.ios.vendored_frameworks = 'eUploadLib/Classes/EsignUploadSDK.framework'
   s.resource_bundles = {
     'eUploadLib' => ['eUploadLib/Assets/EsignUploadBundle.bundle']
