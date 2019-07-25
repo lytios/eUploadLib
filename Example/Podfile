@@ -3,11 +3,5 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'eUploadLib_Example' do
-  pod 'eUploadLib', :path => '../'
-
-  target 'eUploadLib_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'eUploadLib', '~> 0.1.1'
 end
