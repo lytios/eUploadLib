@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   s.resource ='eUploadLib/Assets/EsignUploadBundle.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   s.dependency 'AFNetworking'
   s.dependency 'SDWebImage', '~> 3.8.2'
   s.dependency 'Masonry'
