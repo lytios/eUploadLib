@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'eUploadLib'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'E分期车贷评估图片上传sdk'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lyt' => '24290265@qq.com' }
-  s.source           = { :git => 'https://github.com/lytios/eUploadLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lytios/eUploadLib.git', :tag => 'v0.1.4' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -35,12 +35,10 @@ TODO: Add long description of the pod here.
   s.resource ='eUploadLib/Assets/EsignUploadBundle.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
   s.dependency 'AFNetworking'
-  s.dependency 'SDWebImage', '~> 3.8.2'
+  s.dependency 'SDWebImage'
   s.dependency 'Masonry'
-  s.dependency 'YTKNetwork','~> 2.0.4'
-  s.dependency 'YYModel','~> 1.0.4'
-  s.dependency 'CommonElement'
+  s.dependency 'YTKNetwork'
+  s.dependency 'YYModel'
   s.dependency 'MBProgressHUD'
 end
