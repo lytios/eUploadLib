@@ -36,7 +36,6 @@ eUploadLib is available under the MIT license. See the LICENSE file for more inf
 'Masonry'
 'YTKNetwork'
 'YYModel'
-'CommonElement'
 'MBProgressHUD'
 
 
