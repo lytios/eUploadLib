@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/eUploadLib.svg?style=flat)](https://cocoapods.org/pods/eUploadLib)
 [![Platform](https://img.shields.io/cocoapods/p/eUploadLib.svg?style=flat)](https://cocoapods.org/pods/eUploadLib)
 
-## Version ->0.1.3
+## Version ->1.0.3
 
 ## Example
 
@@ -19,7 +19,7 @@ eUploadLib is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'eUploadLib', '~> 0.1.3'
+pod 'eUploadLib', '~> 1.0.3'
 ```
 
 ## Author
@@ -32,10 +32,10 @@ eUploadLib is available under the MIT license. See the LICENSE file for more inf
 
 ## dependency 
 'AFNetworking'
-'SDWebImage', '~> 3.8.2'
+'SDWebImage'
 'Masonry'
-'YTKNetwork','~> 2.0.4'
-'YYModel','~> 1.0.4'
+'YTKNetwork'
+'YYModel'
 'CommonElement'
 'MBProgressHUD'
 
@@ -45,7 +45,7 @@ eUploadLib is available under the MIT license. See the LICENSE file for more inf
 ## 接入注意
 
 1.接入项目请关闭bitcode.
-2.本项目有依赖库 采用pod集成，pod 'eUploadLib', '~> 0.1.2'
+2.本项目有依赖库 采用pod集成，pod 'eUploadLib', '~> 1.0.3'
 3.本项目需要使用到相机权限,请在项目plist中加入
 <key>NSCameraUsageDescription</key>
 <string>是否允许访问你的相机？</string>
