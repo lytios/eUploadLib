@@ -3,5 +3,5 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'eUploadLib_Example' do
-  pod 'eUploadLib', '~> 0.1.1'
+  pod 'eUploadLib', '1.0.4'
 end

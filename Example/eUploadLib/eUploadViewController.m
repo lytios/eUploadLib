@@ -38,10 +38,10 @@
 
 
 - (IBAction)submitButtonAction:(UIButton *)sender {
-    
     NSString *path =  [[NSBundle mainBundle] pathForResource:@"EsignUploadBundle" ofType:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:path];
     UINavigationController *nav =[esignUploadHomeVC SignUploadHomeNavigationControllerWithBundle:bundle baseUrl:self.requestUrltextField.text orderNo:self.orderNotextField.text assurerNo:self.assurerNotextFileld.text];
+    nav.modalPresentationStyle = 0;
     [self presentViewController:nav animated:YES completion:nil];
 }
 
