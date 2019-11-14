@@ -1,6 +1,0 @@
-framework module Pods_eUploadLib_Tests {
-  umbrella header "Pods-eUploadLib_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -14,31 +14,28 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - CommonElement (0.2.2)
-  - eUploadLib (0.1.1):
+  - eUploadLib (1.0.3):
     - AFNetworking
-    - CommonElement
     - Masonry
     - MBProgressHUD
-    - SDWebImage (~> 3.8.2)
-    - YTKNetwork (~> 2.0.4)
-    - YYModel (~> 1.0.4)
+    - SDWebImage
+    - YTKNetwork
+    - YYModel
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
-  - SDWebImage (3.8.3):
-    - SDWebImage/Core (= 3.8.3)
-  - SDWebImage/Core (3.8.3)
-  - YTKNetwork (2.0.4):
-    - AFNetworking (~> 3.0)
+  - SDWebImage (5.3.1):
+    - SDWebImage/Core (= 5.3.1)
+  - SDWebImage/Core (5.3.1)
+  - YTKNetwork (2.1.4):
+    - AFNetworking/NSURLSession (~> 3.0)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - eUploadLib (~> 0.1.1)
+  - eUploadLib (= 1.0.3)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AFNetworking
-    - CommonElement
     - eUploadLib
     - Masonry
     - MBProgressHUD
@@ -48,14 +45,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  CommonElement: fec09913db4c3a170ff5ecafece69a383f404323
-  eUploadLib: ee03508d717f58c90815956e33a5406efa1524d7
+  eUploadLib: 62f73b1209c6226697b27c204b53ff8b245c8065
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
-  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
+  SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
+  YTKNetwork: 19be749c30f0512ada07180f4637b4b67bc8ddc2
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 52fed81ed49ea924991d279fba0f84b85c933dd6
+PODFILE CHECKSUM: e839d5e43b1a59c516debb3d4ed5e2a14121a5eb
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4
