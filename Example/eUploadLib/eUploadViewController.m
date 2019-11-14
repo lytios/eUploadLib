@@ -26,7 +26,7 @@
 {
     [super viewDidLoad];
     self.title = @"e分期上传材料测试DEMO";
-    self.requestUrltextField.text = @"http:/14.17.122.160:19081";
+    self.requestUrltextField.text = @"http://14.17.122.160:19081";
     self.orderNotextField.text = @"008";
     self.assurerNotextFileld.text = @"D36024344";
 
