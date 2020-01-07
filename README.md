@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/eUploadLib.svg?style=flat)](https://cocoapods.org/pods/eUploadLib)
 [![Platform](https://img.shields.io/cocoapods/p/eUploadLib.svg?style=flat)](https://cocoapods.org/pods/eUploadLib)
 
-## Version ->1.0.3
+## Version ->1.0.4
 
 ## Example
 
@@ -19,7 +19,7 @@ eUploadLib is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'eUploadLib', '~> 1.0.3'
+pod 'eUploadLib', '~> 1.0.4'
 ```
 
 ## Author
